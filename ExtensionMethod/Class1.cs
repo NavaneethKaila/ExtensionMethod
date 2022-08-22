@@ -4,7 +4,7 @@ namespace ExtensionMethod
 {
         public class Extension
         {
-            public void Currency_Valid()
+            public void ToCurrency_Valid()
             {
                 string currency = "123";
                 Assert.Equal("$123", ExtensionMethodClass.ToCurrency(currency));
